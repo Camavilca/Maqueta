@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CMS</string>
+    <string name="descripcion">DESCRIPCION</string>
+    <string name="titulo">TITULO</string>
+    <string name="descargar">DESCARGAR</string>
+    <string name="ver">VER</string>
+    <string name="ciclo">CICLO</string>
+    <string name="elegir">Elige Papper</string>
+    <string name="input_titulo">Ingrese el titulo</string>
+    <string name="input_descripcion">Ingrese la descripcion</string>
+    <string name="ciclos">CICLO</string>
+    <string name="elige_peiper">ELIJA DOCUMENTO</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
