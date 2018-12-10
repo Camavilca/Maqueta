@@ -10,6 +10,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
+            android:foregroundGravity="center"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="12dp"
             android:src="@drawable/doc" />
@@ -89,4 +90,30 @@
             android:layout_marginStart="70dp"
             android:text="ARCHIVO"
             android:tooltipText="REGISTRAR" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/guardar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="119dp"
+            android:layout_marginEnd="120dp"
+            android:background="@color/colorPrimary"
+            android:padding="10dp"
+            android:src="@drawable/ic_menu_save" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/archivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/guardar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="119dp"
+            android:layout_marginStart="120dp"
+            android:layout_gravity="bottom|end"
+            android:background="@color/colorPrimary"
+            android:padding="10dp"
+            android:src="@drawable/ic_manu_upload" />
 </RelativeLayout>
